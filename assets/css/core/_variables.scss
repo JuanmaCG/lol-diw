@@ -1,0 +1,39 @@
+$box_sizing: border-box;
+$body-width: 90%;
+$body_background: rgb(252, 221, 221);
+$body_margin: 30px 50px;
+$text_title: center;
+//navbar
+$navbar_li_text_align: center;
+$navbar_li_flex_grow: 1;
+$navbar_li_border-right: 1px solid #fff;
+$navbar_li_hover: rgba(0, 0, 0, 0.3);
+$navbar_li_a_display: block;
+$navbar_li_a_padding: 15px 20px;
+$navbar_li_a_color: white;
+$navbar_li_a_text_decoration: none;
+$navbar_ul_margin: 0;
+$navbar_ul_padding: 0;
+$navbar_ul_list_style: none;
+$navbar_ul_display: flex;
+$navbar_witdh: 100%;
+$navbar_btn_display: none;
+$navbar_label_width:30px;
+$navbar_label_height:30px;
+$navbar_label_padding:10px;
+$navbar_label_border_right: 1px solid #fff;
+// index
+$img_background: url("./assets/landing_img.jpg");
+// media @768px
+$body_mobile_margin: 0;
+$body_mobile_width: 100%;
+$background_navbar: #333;
+$navbar_label_mobile_color: #fff;
+$navbar_label_mobile_display: block;
+$navbar_label_mobile_font_size:20px;
+$navbar_mobile_dropdown: 6px;
+$navbar_mobile_position:absolute;
+$navbar_mobile_width:70%;
+$navbar_mobile_margin:-90%;
+$navbar_mobile_ul_flex_direction:column;
+$navbar_mobile_li_border_top:1px solid #fff;

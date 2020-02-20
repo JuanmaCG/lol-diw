@@ -1,0 +1,28 @@
+    //core
+    @import 'assets/css/core/variables';
+    @import 'assets/css/layout/header';
+    @import 'assets/css/layout/footer';
+    @import 'assets/css/components/buttons';
+    @import 'assets/css/components/forms';
+    @import 'assets/css/components/typography';
+    @import 'assets/css/pages/index.scss';
+    @import 'assets/css/pages/perfil.scss';
+    @import 'assets/css/pages/ranking.scss';
+    html {
+        box-sizing: $box_sizing;
+        font-family: $arial_typo, $helvetica_typo, $sans-serif_typo;
+        color: $typo_color;
+    }
+    
+    body {
+        width: $body-width;
+        background-color: $body_background;
+        margin: $body_margin;
+    }
+    
+    @media screen and (max-width:768px) {
+        body {
+            margin: $body_mobile_margin;
+            width: $body_mobile_width;
+        }
+    }
