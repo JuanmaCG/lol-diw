@@ -1,7 +1,6 @@
 $box_sizing: border-box;
 $body-width: 90%;
-$body_background: rgb(252, 221, 221);
-$body_margin: 30px 50px;
+$body_margin: 2% 5%;
 $text_title: center;
 //navbar
 $navbar_li_text_align: center;
@@ -22,8 +21,37 @@ $navbar_label_width:30px;
 $navbar_label_height:30px;
 $navbar_label_padding:10px;
 $navbar_label_border_right: 1px solid #fff;
+$menu_label_hover_bg: rgba(0, 0, 0, 0.3);
 // index
-$img_background: url("./assets/landing_img.jpg");
+$img_background: url("./assets/images/landing_img.jpg");
+$img_background_mobile: url("./assets/images/mobile.jpg");
+//forms
+$login-margin-top:10%;
+$a-color: rgba(248,
+248,
+248,
+0.849);
+$a-hover: #ffc107;
+$input-width: 100%;
+$input-mbottom: 20px;
+$input-height: 40px;
+$input-colors: #fff;
+$form-p-font: bold;
+//iframe
+$iframe-width:70%;
+$iframe-height:500px;
+$iframe-padding-left:15%;
+//footer
+$footer-color: #fff;
+$footer-background-color: black;
+$footer-height: 30px;
+$footer-line-height: 35px;
+//botones
+$btn-color: white;
+$btn-background: #4CAF50;
+$btn-font-size: 16px;
+$btn-background-hover:#ffc107;
+$btn-color-hover:#000;
 // media @768px
 $body_mobile_margin: 0;
 $body_mobile_width: 100%;
@@ -37,3 +65,8 @@ $navbar_mobile_width:70%;
 $navbar_mobile_margin:-90%;
 $navbar_mobile_ul_flex_direction:column;
 $navbar_mobile_li_border_top:1px solid #fff;
+//placeholder
+$placeholder-color: rgba(255,
+255,
+255,
+0.822);

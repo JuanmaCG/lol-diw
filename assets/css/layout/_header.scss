@@ -41,7 +41,7 @@
 
 #menu label:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: $menu_label_hover_bg;
 }
 
 #btn-menu:checked~.main-nav {

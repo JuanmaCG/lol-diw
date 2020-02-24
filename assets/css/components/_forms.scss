@@ -1,0 +1,48 @@
+.loginForm {
+    width: 320px;
+    height: 420px;
+    color: $input-colors;
+    margin-top: $login-margin-top;
+    box-sizing: $box_sizing;
+    padding: 70px, 30px;
+    text-align: $navbar_li_text_align;
+}
+
+.loginForm p {
+    margin: 0;
+    padding: 0;
+    font-weight: $form-p-font;
+}
+
+.loginForm input {
+    width: $input-width;
+    margin-bottom: $input-mbottom;
+}
+
+.loginForm a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: $a-color;
+}
+
+.loginForm a:hover {
+    color: $a-hover
+}
+
+.usuario,
+.password,
+.email {
+    border: none;
+    border-bottom: $navbar_label_border_right;
+    background: transparent;
+    outline: none;
+    height: $input-height;
+    color: $input-colors;
+}
+
+@media screen and (max-width:768px) {
+    p {
+        display: none;
+    }
+}

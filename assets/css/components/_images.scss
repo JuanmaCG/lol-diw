@@ -1,3 +1,9 @@
 .landing_img {
     background-image: $img_background;
 }
+
+@media screen and (max-width: 768px) {
+    .landing_img {
+        background-image: $img_background_mobile;
+    }
+}
