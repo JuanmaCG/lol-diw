@@ -112,7 +112,8 @@ footer {
 
 .usuario,
 .password,
-.email {
+.email,
+#buscador {
   border: none;
   border-bottom: 1px solid #fff;
   background: transparent;
@@ -132,6 +133,57 @@ iframe {
   height: 500px;
   padding-left: 15%; }
 
+.container {
+  width: 80%;
+  overflow: auto;
+  margin-top: 5%;
+  margin-left: 10%; }
+
+.gridtable {
+  margin: 0 auto;
+  width: 95%;
+  overflow: auto;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #fff; }
+
+.gridtable th {
+  border-width: 2px;
+  padding: 8px;
+  border-color: black; }
+
+.gridtable td {
+  border-width: 2px;
+  padding: 8px;
+  border-style: solid;
+  border-color: black; }
+
+@media only screen and (max-width: 768px) {
+  table thead {
+    display: none; }
+
+  table tr {
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #FF5733; }
+
+  table td {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    min-height: 14px; }
+
+  table td:before {
+    content: attr(colname);
+    float: left;
+    font-weight: bold; } }
 .landing_img {
   background-image: url("./assets/images/landing_img.jpg"); }
 

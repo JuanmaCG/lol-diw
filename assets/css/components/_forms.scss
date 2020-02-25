@@ -32,7 +32,8 @@
 
 .usuario,
 .password,
-.email {
+.email,
+#buscador {
     border: none;
     border-bottom: $navbar_label_border_right;
     background: transparent;

@@ -1,0 +1,57 @@
+.container {
+    width: 80%;
+    overflow: $container-overflow;
+    margin-top: $container-mtop;
+    margin-left: $container-mleft;
+}
+
+.gridtable {
+    margin: 0 auto;
+    width: $tablewidth;
+    overflow: $container-overflow;
+    font-size: $tableFontSize;
+    border-collapse: $tableBorderColapse;
+    text-align: $tableTextAlign;
+    border: $tableBorder;
+    background: transparent;
+    outline: none;
+    color: $tableColor;
+}
+
+.gridtable th {
+    border-width: $tabThBorder;
+    padding: $tabThPadding;
+    border-color: $tabThBorderColor;
+}
+
+.gridtable td {
+    border-width: $tabThBorder;
+    padding: $tabThPadding;
+    border-style: $tabThBorderStyle;
+    border-color: $tabThBorderColor;
+}
+
+@media only screen and (max-width: 768px) {
+    table thead {
+        display: none;
+    }
+    table tr {
+        display: block;
+        margin-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid $tableBorderBottomColor;
+    }
+    table td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-radius: 5px;
+        margin-bottom: 1px;
+        min-height: 14px
+    }
+    table td:before {
+        content: attr(colname);
+        float: left;
+        font-weight: bold;
+    }
+}

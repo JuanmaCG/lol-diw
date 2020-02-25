@@ -52,6 +52,20 @@ $btn-background: #4CAF50;
 $btn-font-size: 16px;
 $btn-background-hover:#ffc107;
 $btn-color-hover:#000;
+//ranking
+$container-overflow: auto;
+$container-mtop: 5%;
+$container-mleft: 10%;
+$tablewidth: 95%;
+$tableFontSize: 14px;
+$tableBorderColapse: collapse;
+$tableTextAlign: center;
+$tableBorder: none;
+$tableColor: #fff;
+$tabThBorder: 2px;
+$tabThPadding: 8px;
+$tabThBorderStyle: solid;
+$tabThBorderColor: black;
 // media @768px
 $body_mobile_margin: 0;
 $body_mobile_width: 100%;
@@ -65,6 +79,7 @@ $navbar_mobile_width:70%;
 $navbar_mobile_margin:-90%;
 $navbar_mobile_ul_flex_direction:column;
 $navbar_mobile_li_border_top:1px solid #fff;
+$tableBorderBottomColor: #FF5733;
 //placeholder
 $placeholder-color: rgba(255,
 255,
