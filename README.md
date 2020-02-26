@@ -6,3 +6,9 @@ Accesibilidad:
 5- Usar videos con subtitulos
 6- Usar el atributo "title" en videos para describirlo
 7- Usar el atributo "alt" para describir la imagen
+
+----------------------------------------------------------------------------------------------------------
+
+github repo -> https://github.com/JuanmaCG/lol-diw
+
+Si quieres buscar algun perfil que funcione (ya que la api es muy tiquismiquis) -> SNTNT / killzome / Schuhbart

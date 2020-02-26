@@ -73,7 +73,7 @@ const vm_user = new Vue({
 
             await axios.get('https://euw1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/' + userId.data.id + '?api_key=' + ApiKey)
 
-            axios.get('http://ddragon.leagueoflegends.com/cdn/9.22.1/data/en_US/champion.json')
+            axios.get('https://ddragon.leagueoflegends.com/cdn/9.22.1/data/en_US/champion.json')
                 .then((response) => {
                     let champs = response.data.data;
                     let i = 0;
