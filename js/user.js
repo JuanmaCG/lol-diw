@@ -42,7 +42,7 @@ const vm_user = new Vue({
             axios.get(url).then((response) => {
                 this.userInfo = response.data;
                 this.userIconId = response.data.profileIconId;
-                this.iconUrl = "http://ddragon.leagueoflegends.com/cdn/9.22.1/img/profileicon/" + this.userIconId + ".png";
+                this.iconUrl = "https://ddragon.leagueoflegends.com/cdn/9.22.1/img/profileicon/" + this.userIconId + ".png";
 
 
             }).catch(error => { console.log(error); });
