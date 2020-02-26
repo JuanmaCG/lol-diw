@@ -6,10 +6,10 @@ const vm = new Vue({
     mounted: function() {
         axios({
                 "method": "GET",
-                "url": "https://euw1.api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-c49eda67-940e-49a0-ac5f-f0cfd705fb3e",
+                "url": "https://euw1.api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-bc60ac66-5742-4f11-8f80-2de8a273d3f6",
                 "Origin": "https://developer.riotgames.com",
                 "Accept-Charset": "application/x-www-form-urlencoded; charset=UTF-8",
-                "X-Riot-Token": "RGAPI-c49eda67-940e-49a0-ac5f-f0cfd705fb3e",
+                "X-Riot-Token": "RGAPI-bc60ac66-5742-4f11-8f80-2de8a273d3f6",
                 "Accept-Language": "es-ES,es;q=0.9",
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
 

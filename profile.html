@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <script src="https://kit.fontawesome.com/1b87209bec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="menu">
+        <input type="checkbox" id="btn-menu">
+
+        <label for="btn-menu"><i id="menu-dropdown" class="fas fa-bars"></i></label>
+        <nav class="main-nav">
+            <ul>
+                <a href="#/"></a>
+                <li><a href="index.html" title="Pagina Principal">Index</a></li>
+                <li>
+                    <a href="ranking.html" title="Ranking">Ranking</a>
+                </li>
+                <li><a href="profile.html?summonerName=killzome&submit=Buscar" title="Perfil de Usuario de Juanma">Perfil</a></li>
+                <li><a href="login.html" title="Login">Login</a></li>
+                <li><a href="registro.html" title="Registro">Registro</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="user">
+        <div class="header" align=center>
+            <img class="avatar" :src="iconUrl" alt="Imagen de Perfil del usuario">
+            <h2>{{userInfo.name}}</h2>
+        </div>
+        <hr>
+        <div class="winratio">
+            <h3>Victorias: <span>{{leagueUserInfo.wins}}</span></h3>
+            <h3>Derrotas: <span>{{leagueUserInfo.losses}}</span></h3>
+        </div>
+        <hr>
+        <div class="campeones">
+            <h3>Mejores Campeones</h3>
+            <div v-for="champion in topFiveChamp">
+                <li>{{champion.id}} - {{champion.title}}</li>
+            </div>
+
+        </div>
+        <hr>
+        <div class="partidas">
+            <h3>Ultimas Partidas</h3>
+            <div v-for="result in matchesResult">
+                <li>{{result}}</li>
+            </div>
+
+
+        </div>
+        <footer>TODOS LOS DERECHOS RESERVADOS</footer>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/user.js"></script>
+</body>
+
+</html>

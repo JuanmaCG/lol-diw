@@ -1,9 +1,8 @@
-1- Imágenes y animaciones: Use el atributo alt para describir la función de cada elemento visual.
-2- Mapas de imagen: Use el elemento map y texto para las zonas activas.
-3- Multimedia: Proporcione subtítulos y transcripción del sonido, y descripción del vídeo.
-4- Enlaces de hipertexto: Use texto que tenga sentido leído fuera de contexto. Por ejemplo, evite "pincha aquí".
-5- Organización de las páginas: Use encabezados, listas y estructura consistente. Use CSS para la maquetación donde sea posible.
-6- Figuras y diagramas: Descríbalos brevemente en la pagina o use el atributo longdesc.
-7- Scripts, applets y plug-ins: Ofrezca contenido alternativo si las funciones nuevas no son accesibles.
-8- Marcos: Use el elemento noframes y títulos con sentido.
-9- Tablas: Facilitar la lectura línea a línea. 
+Accesibilidad:
+1- Usar atributos con significado
+2- Colocar elementos interactivos en lo mas alto de la pagina (navbar)
+3- Colocar en los links "title" con distinto texto
+4- Usar distinto titulo a las paginas y que tengan sentido
+5- Usar videos con subtitulos
+6- Usar el atributo "title" en videos para describirlo
+7- Usar el atributo "alt" para describir la imagen

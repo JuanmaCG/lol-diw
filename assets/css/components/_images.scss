@@ -2,6 +2,13 @@
     background-image: $img_background;
 }
 
+.avatar {
+    margin-top: $avatarMarginTop;
+    width: $avatarWidth;
+    height: $avatarHeight;
+    border-radius: $avatarBorderRadius;
+}
+
 @media screen and (max-width: 768px) {
     .landing_img {
         background-image: $img_background_mobile;

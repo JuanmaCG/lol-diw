@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    // background-color: red;
+    color: $profileColor;
+}
+
+.winratio,
+.campeones,
+.partidas {
+    box-sizing: $box_sizing;
+    padding: 70px, 30px;
+    text-align: $navbar_li_text_align;
+    color: $profileColor;
+}
+
+hr {
+    border-color: $hrColor;
+    width: 90%;
+}
+
+h3 {
+    font-size: 20px;
+    color: $profileH3Color;
+}
+
+span {
+    color: profileColor
+}
+
+li {
+    list-style: none;
+}

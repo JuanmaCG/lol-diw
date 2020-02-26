@@ -122,7 +122,7 @@ footer {
   color: #fff; }
 
 @media screen and (max-width: 768px) {
-  p {
+  .loginForm p {
     display: none; } }
 h4.title {
   text-align: center;
@@ -132,6 +132,32 @@ iframe {
   width: 70%;
   height: 500px;
   padding-left: 15%; }
+
+.header {
+  width: 100%;
+  color: #fff; }
+
+.winratio,
+.campeones,
+.partidas {
+  box-sizing: border-box;
+  padding: 70px, 30px;
+  text-align: center;
+  color: #fff; }
+
+hr {
+  border-color: red;
+  width: 90%; }
+
+h3 {
+  font-size: 20px;
+  color: yellow; }
+
+span {
+  color: profileColor; }
+
+li {
+  list-style: none; }
 
 .container {
   width: 80%;
@@ -186,6 +212,12 @@ iframe {
     font-weight: bold; } }
 .landing_img {
   background-image: url("./assets/images/landing_img.jpg"); }
+
+.avatar {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; }
 
 @media screen and (max-width: 768px) {
   .landing_img {
